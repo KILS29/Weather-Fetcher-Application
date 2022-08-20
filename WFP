@@ -5,8 +5,8 @@ import time
 
 #Function required to fetch the weather details
 def getweather(canvas):
-    city = textField.get()
-    api = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=40780fe910e93629bf71f75696bfa1d9"
+    state = textField.get()
+    api = 'https://api.openweathermap.org/data/2.5/weather?q=' + state + "&appid=40780fe910e93629bf71f75696bfa1d9"
     json_data = requests.get(api).json()
     condition = json_data['weather'][0]['main']
     temp = int(json_data['main']['temp'] - 273.15)
@@ -26,7 +26,7 @@ def getweather(canvas):
 
 
     label1.config(text=final_info)
-    label2.config(text=final_data)ū
+    label2.config(text=final_data)
 
 
 #Body of the Application
