@@ -1,2 +1,1 @@
-# WeatherFetcherProject_ASAP_Philip
-Program to find the weather
+# Python based application to find display the weather of certain cities using OpenWeatherMap API and tkinter module
