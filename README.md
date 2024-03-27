@@ -1,1 +1,1 @@
-# Python based application to find display the weather of certain cities using OpenWeatherMap API and tkinter module
+# Python based application to find and display the weather of certain cities using OpenWeatherMap API and tkinter module
